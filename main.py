@@ -1,5 +1,5 @@
-from .packages.flask import Flask
-from .packages.flask import request
+from flask import Flask
+from flask import request
 app = Flask(__name__)
 
 @app.route("/latest/meta-data/tags/instance/<var>")
